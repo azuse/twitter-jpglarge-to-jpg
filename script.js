@@ -21,15 +21,14 @@
     var callback = function(mutationsList) {
 
 
-        var a=$("img[src*='?format=jpg&name=']");
-        a.each(function(){
-            //alert($(this).attr("src"));
-            $(this).attr("src",String($(this).attr("src")).replace(/\?format=jpg&name=.*/,".jpg?name=large"));
-            //alert($(this).attr("src"));
-        });
+
         var b=$("img[src*='png:large']");
         b.each(function(){
-            $(this).attr( "src",String($(this).attr("src")).replace(/png:large/,"png"));
+            $(this).attr( "src",String($(this).attr("src")).replace(/\.png:large/,"?format=png&name=orig"));
+        });
+        var c=$("img[src*='jpg:large']");
+        c.each(function(){
+            $(this).attr( "src",String($(this).attr("src")).replace(/\.jpg:large/,"?format=jpg&name=orig"));
         });
         //alert("");
     };
