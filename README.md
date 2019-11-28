@@ -4,7 +4,7 @@ You can install tampermonkey at chrome store.
 Please alter the code as you like!
 
 ![](https://raw.githubusercontent.com/azuse/twitter-jfif2jpg/master/pics/tampermonkey.png)
-
+## jfif problem is mostly fixed now, but the script can still be used to upsize jpg:large to jpg:orig and avoid jpg_large file extension when saving
 # From jfif
 ![](https://raw.githubusercontent.com/azuse/twitter-jfif2jpg/master/pics/jfif.png)
 
