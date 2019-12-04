@@ -1,4 +1,5 @@
-# Please install the script.js with tampermonkey
+# This is a JS script to fix jpg_large file extension problem when saving images from twitter desktop
+## Please install the script.js with tampermonkey
 Create a new script in tampermonkey and copy <a href="https://github.com/azuse/twitter-jpglarge-to-jpg/blob/master/script.js">the code</a> from script.js.
 You can install tampermonkey at chrome store.  
 Please alter the code as you like!
